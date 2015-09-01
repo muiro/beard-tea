@@ -1,14 +1,26 @@
 {
   "name": "beard_tea",
   "version": "1.0.0",
-  "description": "",
+  "description": "A personal blog",
+  "keywords": [
+    "blog"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
+  },
   "main": "index.js",
   "scripts": {
+    "start": "node --harmony index.js",
     "test": "mocha"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "muiro",
+  "license": "MIT",
   "dependencies": {
-    "koa": "^0.21.0"
+    "chai": "^3.2.0",
+    "koa": "^0.21.0",
+    "mocha": "^2.2.5",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3"
   }
 }
